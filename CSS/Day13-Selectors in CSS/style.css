@@ -1,0 +1,80 @@
+/*h1 {
+  color: blueviolet;
+}
+
+#heading {
+  color: red;
+}
+
+p {
+  background-color: lightpink;
+}
+
+.firstPara {
+  color: blue;
+}
+
+.myPara {
+  font-size: 40px;
+}
+*/
+
+/* Group Selector */
+/* h1,
+p {
+  background-color: lightblue;
+  color: blue;
+} */
+
+/* p {
+  color: crimson;
+} */
+
+/* #heading,
+.firstPara {
+  background-color: black;
+  color: red;
+} */
+
+/* * {
+  color: white;
+  background-color: grey;
+} */
+
+/* h1 {
+  color: red;
+} */
+
+/* #shanu {
+  color: lightgreen;
+} */
+
+/* .amar {
+  color: aqua;
+}
+h1 {
+  color: blue;
+} */
+
+/* h1 {
+  color: gold;
+}
+* {
+  color: blue;
+} */
+
+/* h1 {
+  color: blue;
+} */
+
+/* #shanu {
+  color: green;
+} */
+
+/* .amar {
+  color: yellow;
+} */
+
+* {
+  color: blueviolet;
+}

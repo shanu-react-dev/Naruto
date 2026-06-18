@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Marriage form</h2>
+    <form>
+      <label for="name">Enter your name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Enter your name"
+        minlength="3"
+        maxlength="30"
+        required
+      />
+
+      <br /><br />
+      <label for="age">Enter your age</label>
+      <input
+        type="number"
+        name="age"
+        id="age"
+        placeholder="Enter your age"
+        min="21"
+        max="30"
+        required
+      />
+
+      <br /><br />
+      <label for="degree">Highest Qualification</label>
+      <input
+        type="text"
+        name="degree"
+        id="degree"
+        placeholder="BE, Btech, ME, MTech etc.."
+      />
+
+      <br /><br />
+      <label for="profession">Mention your profession</label>
+      <input
+        type="text"
+        name="profession"
+        id="profession"
+        placeholder="Teacher, Engineer etc.."
+      />
+
+      <br /><br />
+      <label for="salary">Enter your salary</label>
+      <input
+        type="number"
+        name="salary"
+        id="salary"
+        placeholder="Enter your salary"
+      />
+
+      <br /><br />
+      <label for="height">Enter your height in CMs</label>
+      <input
+        type="number"
+        name="height"
+        id="height"
+        placeholder="Enter your height"
+      />
+
+      <br /><br />
+      <label for="weight">weight in Kgs</label>
+      <input
+        type="number"
+        name="weight"
+        id="weight"
+        placeholder="Enter your weight"
+      />
+
+      <br /><br />
+      <label for="photo">Upload your latest picture</label>
+      <input type="file" name="photo" id="photo" accept=".png,.jpg" />
+
+      <br /><br />
+      <label for="contact">Specify your contact</label>
+      <input
+        type="tel"
+        name="contact"
+        id="contact"
+        placeholder="+91 1234567890"
+        pattern="[0-9]{10}"
+      />
+
+      <br /><br />
+      <label for="instaUrl">Instagram Profile link</label>
+      <input
+        type="url"
+        name="instaUrl"
+        id="instaUrl"
+        placeholder="Paste your Insta profile"
+        required
+      />
+
+      <br /><br />
+      <label for="properties">Net Worth</label>
+      <input
+        type="number"
+        name="properties"
+        id="properties"
+        placeholder="Total Networth"
+      />
+
+      <br /><br />
+      <label for="gender">Select your gender</label>
+      <input type="radio" name="gender" id="male" value="male" checked />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" value="female" />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="others" value="others" />
+      <label for="others">Others</label>
+
+      <br /><br />
+      <!-- Checkboxes for multiple options -->
+      <label for="cooking_skills">Cooking Skills</label>
+      <input
+        type="checkbox"
+        name="cooking_skills"
+        id="parotta"
+        value="parotta"
+        checked
+      />
+      <label for="parotta">Parotta</label>
+
+      <input
+        type="checkbox"
+        name="cooking_skills"
+        id="ChickenBiryani"
+        value="ChickenBiryani"
+      />
+      <label for="ChickenBiryani">Chicken Biryani</label>
+      <input
+        type="checkbox"
+        name="cooking_skills"
+        id="FriedRice"
+        value="FriedRice"
+      />
+      <label for="FriedRice">Fried Rice</label>
+      <input
+        type="checkbox"
+        name="cooking_skills"
+        id="VegRice"
+        value="VegRice"
+      />
+      <label for="VegRice">Veg Rice</label>
+      <input type="checkbox" name="cooking_skills" id="Naaan" value="Naaan" />
+      <label for="Naaan">Naaan</label>
+      <input type="checkbox" name="cooking_skills" id="Dosa" value="Dosa" />
+      <label for="Dosa">Dosa</label>
+
+      <br /><br />
+      <fieldset>
+        <legend>Address Details</legend>
+        <label for="house_No_Name">House No./ Name</label>
+        <input
+          type="text"
+          placeholder="house_No_Name"
+          id="house_No_Name"
+          name="house_No_Name"
+        />
+
+        <label for="streetName">Street Name</label>
+        <input
+          type="text"
+          name="streetName"
+          placeholder="Enter street name"
+          id="streetName"
+        />
+        <!-- Dropdown -->
+        <label for="city">City Name</label>
+        <select name="city" id="city">
+          <option value="Chennai">Chennai</option>
+          <option value="Tiruvanamalai">Tiruvanamalai</option>
+          <option value="Coimbatore">Coimbatore</option>
+        </select>
+
+        <label for="state">State</label>
+        <select name="state" id="state">
+          <option value="tamilnadu">Tamil Nadu</option>
+          <option value="Jharkhand">Jharkhand</option>
+          <option value="Maharashtra">Maharashtra</option>
+        </select>
+      </fieldset>
+
+      <br /><br />
+      <label for="siblings">Number of Siblings</label>
+      <input
+        type="number"
+        name="siblings"
+        id="siblings"
+        placeholder="Number of siblings"
+      />
+
+      <br /><br />
+      <!-- textarea: used for multiline text -->
+      <label for="about">About Yourself</label>
+      <textarea
+        name="about"
+        id="about"
+        cols="50"
+        rows="10"
+        maxlength="100"
+        minlength="40"
+      ></textarea>
+
+      <br /><br />
+      <label for="email">Enter email</label>
+      <input type="email" name="email" id="email" placeholder="Enter email" />
+
+      <br /><br />
+      <label for="color">Pick your favourite color</label>
+      <input type="color" name="color" id="color" />
+
+      <br /><br />
+      <label for="dob">Select DOB</label>
+      <input
+        type="date"
+        name="dob"
+        id="dob"
+        min="2002-01-01"
+        max="2005-12-31"
+      />
+
+      <br /><br />
+      <label for="meet">meeting Date and time</label>
+      <input type="datetime-local" name="meet" id="meet" />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>

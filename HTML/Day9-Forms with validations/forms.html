@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="username">Enter Username:</label>
+      <input
+        type="text"
+        placeholder="Enter username"
+        id="username"
+        name="username"
+        required
+        minlength="3"
+        maxlength="30"
+      />
+
+      <br /><br />
+      <label for="password">Enter Password:</label>
+      <input
+        type="password"
+        placeholder="Enter Password"
+        id="password"
+        name="password"
+        pattern="[A-Za-z0-9]{8-12}"
+        required
+        title="Write the password in uppercase only and 8 characters only"
+      />
+
+      <br /><br />
+      <label for="email">Enter Email:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="admin@gmail.com"
+        required
+      />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        color: blue;
+      }
+
+      h1:hover {
+        color: green;
+      }
+
+      p:hover {
+        color: pink;
+      }
+
+      input {
+        outline: none;
+      }
+
+      input:hover {
+        border-color: black;
+      }
+
+      input:focus {
+        border-color: blue;
+      }
+
+      li {
+        color: darkblue;
+      }
+
+      li:first-child {
+        color: red;
+      }
+
+      li:last-child {
+        color: aquamarine;
+      }
+
+      li:nth-child(5) {
+        color: orange;
+      }
+
+      li:nth-child(even) {
+        color: red;
+      }
+
+      li:nth-child(odd) {
+        color: darkturquoise;
+        background-color: burlywood;
+      }
+
+      form > input {
+        background-color: lightgreen;
+      }
+
+      form > input:valid {
+        background-color: lightgreen;
+      }
+
+      form > input:invalid {
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hii this is Shanu</h1>
+    <p>
+      Today we are going to discuss about CSS Pseudo class and Pseudo Element
+      selector.
+    </p>
+
+    <input type="text" placeholder="ENter your name" />
+
+    <ul>
+      <li>Item1</li>
+      <li>item2</li>
+      <li>item3</li>
+      <li>item4</li>
+      <li>item5</li>
+      <li>item6</li>
+      <li>item7</li>
+      <li>item8</li>
+      <li>item9</li>
+      <li>item10</li>
+    </ul>
+
+    <form>
+      <input
+        type="text"
+        name="username"
+        placeholder="username"
+        minlength="5"
+        maxlength="20"
+        required
+      />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>

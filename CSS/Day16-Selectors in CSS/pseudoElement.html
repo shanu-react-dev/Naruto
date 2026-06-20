@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      li::marker {
+        content: "@";
+      }
+
+      ol > li::marker {
+        content: "👉";
+      }
+
+      /* p::before {
+        content: "💘";
+      } */
+
+      p::after {
+        content: "🐒";
+      }
+
+      p::selection {
+        background-color: black;
+        color: red;
+      }
+
+      p::first-letter {
+        font-size: 50px;
+        color: yellow;
+        background-color: black;
+      }
+
+      p::first-line {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>item1</li>
+      <li>item2</li>
+      <li>item3</li>
+      <li>item4</li>
+      <li>item5</li>
+    </ul>
+
+    <ol>
+      <li>item1</li>
+      <li>item2</li>
+      <li>item3</li>
+      <li>item4</li>
+      <li>item5</li>
+    </ol>
+
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, ipsum
+      enim autem numquam exercitationem minima aspernatur tempora esse maiores
+      modi est magni tempore cum suscipit officiis. Debitis ab impedit delectus!
+    </p>
+  </body>
+</html>

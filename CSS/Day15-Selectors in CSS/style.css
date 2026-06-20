@@ -1,0 +1,33 @@
+/* [type="number"] {
+  background-color: aquamarine;
+} */
+
+[placeholder="Enter yor name"] {
+  background-color: red;
+}
+
+button {
+  color: blue;
+}
+
+button:hover {
+  color: green;
+  /* font-size: 30px; */
+  background-color: lightpink;
+}
+
+button:active {
+  background-color: fuchsia;
+}
+
+input:hover {
+  background-color: lightseagreen;
+}
+
+input:active {
+  background-color: coral;
+}
+
+input:focus {
+  background-color: lightskyblue;
+}
